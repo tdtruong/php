@@ -1,0 +1,113 @@
+/* CSS Document */
+
+#tieude {
+	background-color:#3CF;
+	color:white;
+	padding:5px;
+	font-size:24px;
+	font-weight:bold;
+	text-align:center
+}
+#tieude .welcome {
+	float: right;
+	color: black;
+	font-size:16px;
+	padding: 5px;
+}
+
+#tieude .welcome input[type=submit]{
+	color: white;
+	font-weight:bold;
+	background-color:red;
+	border:none;
+}
+
+#menu a {
+	background-color:#666;
+	color: white;
+	padding:5px;
+	display:block;
+	float:left;
+	margin-right:1px;
+	text-decoration:none;
+	width: 150px;
+	text-align:center;
+}
+#menu a:hover {
+	background-color:#000;
+}
+#menu a:active {
+	background-color:#396
+}
+
+/*CSS - quản lý thể loại*/
+.theloai {
+	margin-top: 20px;	
+}
+.theloai td {
+	padding: 5px;	
+}
+.theloai .header {
+	padding: 5px;
+	font-size: 18px;
+	text-align:center;
+	color: white;
+	background-color:#333;
+	font-weight:bold;
+}
+.theloai .title {
+	color: white;
+	background-color:#999;
+}
+.theloai .title.tin, .theloai .title.qc {
+	width: 100px;
+}
+
+.theloai input[type=text], .theloai input[type=number] {
+	width: 99.5%;
+}
+.theloai button {
+	background-color:#333;
+	color:white;	
+}
+.theloai .select-theloai {
+	padding: 5px;	
+}
+
+.theloai .content {
+	width: 50%;	
+}
+.theloai .content>span {
+	font-weight: bold;	
+}
+.theloai input.hinhanh {
+	width:50%;	
+}
+.theloai textarea {
+	font-family:Tahoma, Geneva, sans-serif;
+	width:99%;	
+}
+
+.theloai .hide {
+	display: none;	
+}
+
+#phantrang {
+	text-align: center;
+	margin: 5px;
+}
+#phantrang a {
+	background-color: black;
+	color: white;
+	padding: 5px;
+	margin-left: 5px;
+}
+#phantrang a:hover {
+	background-color: blue;
+}
+#phantrang span.active {
+	background-color: red;
+	color: white;
+	padding: 5px;
+	margin-left: 5px;
+}
